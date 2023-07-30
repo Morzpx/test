@@ -1,0 +1,13 @@
+ElvUI_Libraries: enabled
+OmniBar: enabled
+WeakAurasArchive: enabled
+WeakAuras: enabled
+WeakAurasModelPaths: enabled
+WeakAurasOptions: enabled
+WeakAurasTemplates: enabled
+ATT: enabled
+Auctionator: enabled
+BuyEmAll: enabled
+TLDRMissions: disabled
+RETabBinder: enabled
+REFlex: enabled

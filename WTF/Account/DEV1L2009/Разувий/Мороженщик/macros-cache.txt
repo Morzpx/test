@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "дк нассал" "INV_MISC_QUESTIONMARK"
+#showtoltip Смерть и разложение
+/cast [@cursor] Смерть и разложение
+END

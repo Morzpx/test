@@ -1,0 +1,86 @@
+VER 3 0100000000000004 "123" "INV_MISC_QUESTIONMARK"
+#showtoltip Призыв статуи Нефритовой Змеи
+/cast [@cursor] Призыв статуи Нефритовой Змеи
+END
+VER 3 010000000000000F "123" "INV_MISC_QUESTIONMARK"
+#showtoltip Обращение вреда
+/stopcast
+/cast [@Маро] 
+END
+VER 3 0100000000000009 "dispel test" "INV_MISC_QUESTIONMARK"
+#showtooltip Детоксикация
+/cast [@Малифэсента] Детоксикация
+END
+VER 3 010000000000000E "heal dd" "INV_MISC_QUESTIONMARK"
+/cast Обращение вреда
+END
+VER 3 0100000000000014 "mouseover" "INV_MISC_QUESTIONMARK"
+#showtooltip Танцующий журавль
+/cast [@mouseover,help,nodead][] Танцующий журавль
+END
+VER 3 0100000000000010 "target enemy" "INV_MISC_QUESTIONMARK"
+#showtooltip Танцующий журавль
+/cleartarget
+/console targetNearestDistance 10.000000 
+/targetenemy [noharm][dead] 
+/console targetNearestDistance 41.000000 
+/cast [harm,nodead] Танцующий журавль
+END
+VER 3 0100000000000017 "Въебать!" "134400"
+#showtooltip Удар Владыки Ветра
+/закл Удар Владыки Ветра
+/use 13
+END
+VER 3 0100000000000012 "Падрэ" "INV_MISC_QUESTIONMARK"
+#showtooltip Детоксикация
+/cast [@Падрэ] Детоксикация
+END
+VER 3 0100000000000005 "бурст" "INV_MISC_QUESTIONMARK"
+#showtoltip Призыв Сюэня, Белого Тигра
+/cast Призыв Сюэня, Белого Тигра
+/use 13
+END
+VER 3 010000000000000B "бурст пве" "INV_MISC_QUESTIONMARK"
+#showtoltip Смертельное касание
+/закл Смертельное касание
+/use 13
+END
+VER 3 0100000000000008 "круг" "INV_MISC_QUESTIONMARK"
+#showtooltip Круг мира
+/cast [@cursor] Круг мира
+END
+VER 3 0100000000000007 "лобозя" "INV_MISC_QUESTIONMARK"
+#showtoltip Детоксикация
+/stopcast
+/cast [@Малифэсента] Детоксикация
+/cast [@Прадмур] Детоксикация
+/cast [@Маро] Детоксикация
+/cast [@Саргон] Детоксикация
+/cast [@Палнатоки] Детоксикация
+/cast [@Харуке] Детоксикация
+END
+VER 3 0100000000000013 "маро" "INV_MISC_QUESTIONMARK"
+#showtooltip Детоксикация
+/cast [@Маро] Детоксикация
+END
+VER 3 0100000000000006 "сейв" "INV_MISC_QUESTIONMARK"
+#showtltip Укрепляющий отвар
+/закл Укрепляющий отвар
+END
+VER 3 0100000000000016 "статуя" "INV_MISC_QUESTIONMARK"
+#showtoltip 
+/cast [@cursor] Круг мира
+END
+VER 3 010000000000000A "тотем хила" "INV_MISC_QUESTIONMARK"
+#showtooltip Детоксикация
+/cast [@Монтадью] Детоксикация
+END
+VER 3 010000000000000C "хил бурс" "INV_MISC_QUESTIONMARK"
+/закл Маначай
+/use 13
+END
+VER 3 0100000000000011 "шам" "INV_MISC_QUESTIONMARK"
+#showtoltip Обращение вреда
+/stopcast
+/cast [@Малифэсента] Обращение вреда
+END

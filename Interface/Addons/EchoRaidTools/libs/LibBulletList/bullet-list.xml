@@ -1,0 +1,45 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+
+    <Script file="bullet-list.lua"/>
+
+    <Frame name="LibBulletListItem" mixin="LibBulletList_ItemMixin" virtual="true">
+        <Size x="500" y="30" />
+        <Layers>
+            <Layer level="OVERLAY">
+                <FontString parentKey="Text" inherits="GameFontHighlight" text="Item">
+					<Anchors>
+						<Anchor point="TOPLEFT" x="5" y="5" />
+					</Anchors>
+				</FontString>
+            </Layer>
+            <Layer level="ARTWORK">
+                <Texture parentKey="Dot" atlas="levelup-dot-gold" useAtlasSize="false">
+                    <Size x="6" y="6" />
+                    <Anchors>
+                        <Anchor point="RIGHT" x="-2" y="-1" relativeKey="$parent.Text" relativePoint="LEFT" />    
+                    </Anchors>
+                </Texture>
+            </Layer>
+        </Layers>
+        <Scripts>
+            <OnLoad>
+                if self.TextValue then
+                    self.Text:SetText(tostring(TextValue))
+                    self.TextValue = nil
+                end
+            </OnLoad>
+        </Scripts>
+    </Frame>
+
+    <Frame name="LibBulletList" mixin="LibBulletList_ListMixin" virtual="true">
+        <Size x="500" y="300" />
+        <Frames>
+            <Frame parentKey="Item1" inherits="LibBulletListItem">
+                <Anchors>
+                    <Anchor point="TOPLEFT" />
+                </Anchors>
+            </Frame>
+        </Frames>
+    </Frame>
+</Ui>

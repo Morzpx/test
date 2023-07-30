@@ -1,0 +1,84 @@
+VER 3 0100000000000007 "1" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover] Ментальный демон
+n
+END
+VER 3 0100000000000011 "dispel" "INV_MISC_QUESTIONMARK"
+#showtoltip Массовое рассеивание
+/cast [@cursor] Массовое рассеивание
+END
+VER 3 0100000000000012 "heal" "INV_MISC_QUESTIONMARK"
+#showtoltip Слово Света: Освящение
+/cast [@cursor] Слово Света: Освящение
+END
+VER 3 0100000000000004 "mount" "INV_Staff_77"
+.mount 22464
+END
+VER 3 0100000000000005 "race" "INV_MISC_QUESTIONMARK"
+1 - Human - Человек
+2 - Orc - Орк
+3 - Dwarf - Дварф
+4 - Night Elf - Ночной эльф
+5 - Undead - Нежить 
+6 - Tauren - Таурен
+7 - Gnome - Гном
+8 - Troll - Тролль 
+9 - Goblin - Гоблин
+10 - Blood Elf - Кровавый эльф
+11 - Draenie - Дреней
+22 - Worgen - Ворген 
+END
+VER 3 0100000000000010 "run" "INV_MISC_QUESTIONMARK"
+#showtoltip Божественное перышко
+/cast [@cursor] Божественное перышко
+END
+VER 3 0100000000000006 "Шома пошел" "SPELL_HOLY_STOICISM"
+#showtoltip Прикосновение вампира
+/cast Прикосновение вампира
+/use Пылкое желание Кил'джедена
+END
+VER 3 0100000000000008 "Шома пошел 2" "SPELL_HOLY_PENANCE"
+/use Перчатки бездушного гладиатора из луноткани
+/закл Священный огонь
+END
+VER 3 010000000000000A "бурст" "INV_MISC_QUESTIONMARK"
+#showtoltip Извержение Бездны
+/use 13
+/закл Извержение Бездны
+END
+VER 3 010000000000000E "дисп маро" "INV_MISC_QUESTIONMARK"
+#showtoltip Очищение
+/cast [@Маро] Очищение
+END
+VER 3 0100000000000009 "диспел" "INV_MISC_QUESTIONMARK"
+#showtoltip Очищение от болезни
+/cast [@Малифэсента] Очищение от болезни
+END
+VER 3 010000000000000F "ко мне блат вар" "INV_MISC_QUESTIONMARK"
+#showtoltip Духовное рвение
+/cast [@Маро] Духовное рвение
+END
+VER 3 010000000000000B "ко мне блат!" "INV_MISC_QUESTIONMARK"
+#showtoltip Духовное рвение
+/cast [@Малифэсента] Духовное рвение
+END
+VER 3 0100000000000014 "лок" "INV_MISC_QUESTIONMARK"
+#showtoltip Духовное рвение
+/cast [@Чтоделать] Духовное рвение
+END
+VER 3 0100000000000015 "лок" "INV_MISC_QUESTIONMARK"
+#showtoltip Очищение
+/cast [@Чтоделать] Очищение
+END
+VER 3 010000000000000D "свап хп" "INV_MISC_QUESTIONMARK"
+#showtoltip Вхождение в Бездну(PvP-талант)
+/cast [@Чтоделать] Вхождение в Бездну(PvP-талант)
+END
+VER 3 0100000000000013 "триня сейв" "INV_MISC_QUESTIONMARK"
+#showtoltip Луч надежды(PvP-талант)
+/use 13
+/закл Луч надежды(PvP-талант)
+END
+VER 3 010000000000000C "щит для кента" "INV_MISC_QUESTIONMARK"
+#showtoltip Слово силы: Щит
+/cast [@Малифэсента] Слово силы: Щит
+END

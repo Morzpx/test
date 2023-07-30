@@ -1,0 +1,13 @@
+VER 3 0100000000000001 "бурс" "INV_MISC_QUESTIONMARK"
+#showtoltip Выброс адреналина
+/закл Выброс адреналина
+END
+VER 3 0100000000000002 "пиздец" "INV_MISC_QUESTIONMARK"
+#showtoltip
+/закл Погибель королей(Артефакт)
+/закл Пускание крови
+END
+VER 3 0100000000000003 "прыг" "INV_MISC_QUESTIONMARK"
+#showtooltip Абордажный крюк
+/cast [@cursor] Абордажный крюк
+END

@@ -1,0 +1,2108 @@
+
+TLDRMissionsLogging = {
+	[2169] = {
+		["missionID"] = 2169,
+		["followers"] = {
+			{
+				["maxHP"] = 870,
+				["spells"] = {
+					{
+						["duration"] = 3,
+						["cooldown"] = 3,
+						["spellID"] = 318,
+					}, -- [1]
+				},
+				["xp"] = 350,
+				["levelXP"] = 1400,
+				["level"] = 19,
+				["predictedFinalHP"] = 694,
+				["name"] = "Смертозуб",
+				["followerID"] = "0x000000009CCDBBEB",
+				["baseAttack"] = 116,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 15,
+				},
+				["HP"] = 870,
+				["boardIndex"] = 2,
+			}, -- [1]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 700,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 3,
+			}, -- [2]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 700,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 4,
+			}, -- [3]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 700,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 0,
+			}, -- [4]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 700,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 1,
+			}, -- [5]
+		},
+		["addonVersion"] = "9.2-096",
+		["enemies"] = {
+			{
+				["boardIndex"] = 6,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 4,
+						["spellID"] = 9,
+					}, -- [1]
+				},
+				["name"] = "Зеленый хищник",
+				["followerID"] = -1,
+				["baseAttack"] = 44,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 672,
+				["maxHP"] = 672,
+			}, -- [1]
+			{
+				["boardIndex"] = 10,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 4,
+						["spellID"] = 9,
+					}, -- [1]
+				},
+				["name"] = "Зеленый хищник",
+				["followerID"] = -2,
+				["baseAttack"] = 44,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 672,
+				["maxHP"] = 672,
+			}, -- [2]
+			{
+				["boardIndex"] = 7,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 4,
+						["spellID"] = 9,
+					}, -- [1]
+				},
+				["name"] = "Зеленый хищник",
+				["followerID"] = -3,
+				["baseAttack"] = 44,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 672,
+				["maxHP"] = 672,
+			}, -- [3]
+			{
+				["boardIndex"] = 11,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 4,
+						["spellID"] = 9,
+					}, -- [1]
+				},
+				["name"] = "Зеленый хищник",
+				["followerID"] = -4,
+				["baseAttack"] = 44,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 672,
+				["maxHP"] = 672,
+			}, -- [4]
+		},
+	},
+	[2297] = {
+		["missionID"] = 2297,
+		["addonVersion"] = "9.2-096",
+		["followers"] = {
+			{
+				["maxHP"] = 1960,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 2,
+						["spellID"] = 193,
+					}, -- [1]
+				},
+				["xp"] = 5350,
+				["levelXP"] = 7100,
+				["level"] = 39,
+				["predictedFinalHP"] = -45,
+				["name"] = "Рукоглодка",
+				["followerID"] = "0x000000009BCEF9F2",
+				["baseAttack"] = 98,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 1960,
+				["boardIndex"] = 2,
+			}, -- [1]
+			{
+				["maxHP"] = 3000,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 1,
+						["spellID"] = 114,
+					}, -- [1]
+				},
+				["xp"] = 2150,
+				["levelXP"] = 7500,
+				["level"] = 40,
+				["predictedFinalHP"] = -15,
+				["name"] = "Гунн Костоглодка",
+				["followerID"] = "0x000000009AC73886",
+				["baseAttack"] = 100,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 3000,
+				["boardIndex"] = 3,
+			}, -- [2]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 171,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 4,
+			}, -- [3]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = -119,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 0,
+			}, -- [4]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 65,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 1,
+			}, -- [5]
+		},
+		["environmentEffect"] = {
+			["name"] = "Утроба",
+			["autoCombatSpellInfo"] = {
+				["description"] = "Могущественная магия смерти прокатывается по Обители мучений, поражая вашу группу суммирующимся эффектом периодического урона.",
+				["autoCombatSpellID"] = 300,
+				["duration"] = 3,
+				["previewMask"] = 0,
+				["name"] = "Волна вечной смерти",
+				["spellTutorialFlag"] = 0,
+				["cooldown"] = 1,
+				["schoolMask"] = 32,
+				["icon"] = 136160,
+				["hasThornsEffect"] = false,
+			},
+		},
+		["enemies"] = {
+			{
+				["boardIndex"] = 7,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 2,
+						["spellID"] = 225,
+					}, -- [1]
+				},
+				["name"] = "Гелак Заточитель",
+				["followerID"] = -1,
+				["baseAttack"] = 160,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 3450,
+				["maxHP"] = 3450,
+			}, -- [1]
+			{
+				["boardIndex"] = 9,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 226,
+					}, -- [1]
+				},
+				["name"] = "Верный Утробе перехватчик",
+				["followerID"] = -2,
+				["baseAttack"] = 135,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 1700,
+				["maxHP"] = 1700,
+			}, -- [2]
+			{
+				["boardIndex"] = 6,
+				["spells"] = {
+					{
+						["duration"] = 2,
+						["cooldown"] = 4,
+						["spellID"] = 231,
+					}, -- [1]
+				},
+				["name"] = "Верный Утробе защитник",
+				["followerID"] = -3,
+				["baseAttack"] = 120,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 2450,
+				["maxHP"] = 2450,
+			}, -- [3]
+			{
+				["boardIndex"] = 12,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 226,
+					}, -- [1]
+				},
+				["name"] = "Верный Утробе перехватчик",
+				["followerID"] = -4,
+				["baseAttack"] = 135,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 1700,
+				["maxHP"] = 1700,
+			}, -- [4]
+		},
+	},
+	[2171] = {
+		["missionID"] = 2171,
+		["followers"] = {
+			{
+				["maxHP"] = 1280,
+				["spells"] = {
+					{
+						["duration"] = 2,
+						["cooldown"] = 2,
+						["spellID"] = 244,
+					}, -- [1]
+				},
+				["xp"] = 950,
+				["levelXP"] = 1900,
+				["level"] = 22,
+				["predictedFinalHP"] = 1022,
+				["name"] = "Мясыш",
+				["followerID"] = "0x000000009C911D0F",
+				["baseAttack"] = 96,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 1280,
+				["boardIndex"] = 2,
+			}, -- [1]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 700,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 3,
+			}, -- [2]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 648,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 4,
+			}, -- [3]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 700,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 0,
+			}, -- [4]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 700,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 1,
+			}, -- [5]
+		},
+		["addonVersion"] = "9.2-096",
+		["enemies"] = {
+			{
+				["boardIndex"] = 6,
+				["spells"] = {
+					{
+						["duration"] = 1,
+						["cooldown"] = 2,
+						["spellID"] = 7,
+					}, -- [1]
+				},
+				["name"] = "Тонкий скелет",
+				["followerID"] = -1,
+				["baseAttack"] = 48,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 342,
+				["maxHP"] = 342,
+			}, -- [1]
+			{
+				["boardIndex"] = 11,
+				["spells"] = {
+					{
+						["duration"] = 1,
+						["cooldown"] = 2,
+						["spellID"] = 7,
+					}, -- [1]
+				},
+				["name"] = "Мельтешащий скелет",
+				["followerID"] = -2,
+				["baseAttack"] = 24,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 178,
+				["maxHP"] = 178,
+			}, -- [2]
+			{
+				["boardIndex"] = 10,
+				["spells"] = {
+					{
+						["duration"] = 1,
+						["cooldown"] = 2,
+						["spellID"] = 7,
+					}, -- [1]
+				},
+				["name"] = "Мельтешащий скелет",
+				["followerID"] = -3,
+				["baseAttack"] = 24,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 178,
+				["maxHP"] = 178,
+			}, -- [3]
+			{
+				["boardIndex"] = 7,
+				["spells"] = {
+					{
+						["duration"] = 1,
+						["cooldown"] = 2,
+						["spellID"] = 7,
+					}, -- [1]
+				},
+				["name"] = "Тонкий скелет",
+				["followerID"] = -4,
+				["baseAttack"] = 48,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 342,
+				["maxHP"] = 342,
+			}, -- [4]
+			{
+				["boardIndex"] = 9,
+				["spells"] = {
+					{
+						["duration"] = 1,
+						["cooldown"] = 2,
+						["spellID"] = 7,
+					}, -- [1]
+				},
+				["name"] = "Мельтешащий скелет",
+				["followerID"] = -5,
+				["baseAttack"] = 24,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 178,
+				["maxHP"] = 178,
+			}, -- [5]
+			{
+				["boardIndex"] = 5,
+				["spells"] = {
+					{
+						["duration"] = 1,
+						["cooldown"] = 2,
+						["spellID"] = 7,
+					}, -- [1]
+				},
+				["name"] = "Мельтешащий скелет",
+				["followerID"] = -6,
+				["baseAttack"] = 24,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 178,
+				["maxHP"] = 178,
+			}, -- [6]
+			{
+				["boardIndex"] = 12,
+				["spells"] = {
+					{
+						["duration"] = 1,
+						["cooldown"] = 1,
+						["spellID"] = 12,
+					}, -- [1]
+				},
+				["name"] = "Норт Токсичный",
+				["followerID"] = -7,
+				["baseAttack"] = 24,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 15,
+				},
+				["HP"] = 684,
+				["maxHP"] = 684,
+			}, -- [7]
+			{
+				["boardIndex"] = 8,
+				["spells"] = {
+					{
+						["duration"] = 1,
+						["cooldown"] = 2,
+						["spellID"] = 7,
+					}, -- [1]
+				},
+				["name"] = "Тонкий скелет",
+				["followerID"] = -8,
+				["baseAttack"] = 48,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 342,
+				["maxHP"] = 342,
+			}, -- [8]
+		},
+	},
+	[2262] = {
+		["missionID"] = 2262,
+		["followers"] = {
+			{
+				["maxHP"] = 1050,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 2,
+						["spellID"] = 192,
+					}, -- [1]
+				},
+				["xp"] = 750,
+				["levelXP"] = 2500,
+				["level"] = 25,
+				["predictedFinalHP"] = 965,
+				["name"] = "Рафан",
+				["followerID"] = "0x000000009BB8F3BB",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 15,
+				},
+				["HP"] = 1050,
+				["boardIndex"] = 2,
+			}, -- [1]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 615,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 3,
+			}, -- [2]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 700,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 4,
+			}, -- [3]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 700,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 0,
+			}, -- [4]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 700,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 1,
+			}, -- [5]
+		},
+		["addonVersion"] = "9.2-096",
+		["enemies"] = {
+			{
+				["boardIndex"] = 6,
+				["spells"] = {
+					{
+						["duration"] = 4,
+						["cooldown"] = 5,
+						["spellID"] = 248,
+					}, -- [1]
+				},
+				["name"] = "Пепельный вурдалак",
+				["followerID"] = -1,
+				["baseAttack"] = 66,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 440,
+				["maxHP"] = 440,
+			}, -- [1]
+			{
+				["boardIndex"] = 5,
+				["spells"] = {
+					{
+						["duration"] = 4,
+						["cooldown"] = 5,
+						["spellID"] = 248,
+					}, -- [1]
+				},
+				["name"] = "Пепельный вурдалак",
+				["followerID"] = -2,
+				["baseAttack"] = 66,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 440,
+				["maxHP"] = 440,
+			}, -- [2]
+			{
+				["boardIndex"] = 8,
+				["spells"] = {
+					{
+						["duration"] = 4,
+						["cooldown"] = 5,
+						["spellID"] = 248,
+					}, -- [1]
+				},
+				["name"] = "Пепельный вурдалак",
+				["followerID"] = -3,
+				["baseAttack"] = 66,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 440,
+				["maxHP"] = 440,
+			}, -- [3]
+			{
+				["boardIndex"] = 7,
+				["spells"] = {
+					{
+						["duration"] = 4,
+						["cooldown"] = 5,
+						["spellID"] = 248,
+					}, -- [1]
+				},
+				["name"] = "Пепельный вурдалак",
+				["followerID"] = -4,
+				["baseAttack"] = 66,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 440,
+				["maxHP"] = 440,
+			}, -- [4]
+		},
+	},
+	[2285] = {
+		["missionID"] = 2285,
+		["followers"] = {
+			{
+				["maxHP"] = 1050,
+				["spells"] = {
+					{
+						["duration"] = 3,
+						["cooldown"] = 5,
+						["spellID"] = 107,
+					}, -- [1]
+					{
+						["duration"] = 2,
+						["cooldown"] = 4,
+						["spellID"] = 108,
+					}, -- [2]
+				},
+				["xp"] = 550,
+				["levelXP"] = 2500,
+				["level"] = 25,
+				["predictedFinalHP"] = 392,
+				["name"] = "Изобретатель чумы Марилет",
+				["followerID"] = "0x000000009AB08FCE",
+				["baseAttack"] = 210,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 15,
+				},
+				["HP"] = 1050,
+				["boardIndex"] = 2,
+			}, -- [1]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 770,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 3,
+			}, -- [2]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 512,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 4,
+			}, -- [3]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = -28,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 0,
+			}, -- [4]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 216,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 1,
+			}, -- [5]
+		},
+		["addonVersion"] = "9.2-096",
+		["enemies"] = {
+			{
+				["boardIndex"] = 11,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 272,
+					}, -- [1]
+				},
+				["name"] = "Квексу",
+				["followerID"] = -1,
+				["baseAttack"] = 114,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 15,
+				},
+				["HP"] = 2905,
+				["maxHP"] = 2905,
+			}, -- [1]
+			{
+				["boardIndex"] = 5,
+				["spells"] = {
+					{
+						["duration"] = 1,
+						["cooldown"] = 2,
+						["spellID"] = 209,
+					}, -- [1]
+				},
+				["name"] = "Погруженный в учебу аколит",
+				["followerID"] = -2,
+				["baseAttack"] = 94,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 1205,
+				["maxHP"] = 1205,
+			}, -- [2]
+			{
+				["boardIndex"] = 8,
+				["spells"] = {
+					{
+						["duration"] = 1,
+						["cooldown"] = 2,
+						["spellID"] = 209,
+					}, -- [1]
+				},
+				["name"] = "Погруженный в учебу аколит",
+				["followerID"] = -3,
+				["baseAttack"] = 94,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 1205,
+				["maxHP"] = 1205,
+			}, -- [3]
+			{
+				["boardIndex"] = 10,
+				["spells"] = {
+					{
+						["duration"] = 1,
+						["cooldown"] = 2,
+						["spellID"] = 209,
+					}, -- [1]
+				},
+				["name"] = "Погруженный в учебу аколит",
+				["followerID"] = -4,
+				["baseAttack"] = 94,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 1205,
+				["maxHP"] = 1205,
+			}, -- [4]
+		},
+	},
+	[2233] = {
+		["missionID"] = 2233,
+		["followers"] = {
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 1,
+						["spellID"] = 191,
+					}, -- [1]
+				},
+				["xp"] = 2150,
+				["levelXP"] = 2500,
+				["level"] = 25,
+				["predictedFinalHP"] = -20,
+				["name"] = "Чумник",
+				["followerID"] = "0x000000009AEAA1DE",
+				["baseAttack"] = 175,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 15,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 2,
+			}, -- [1]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 428,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 3,
+			}, -- [2]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 700,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 4,
+			}, -- [3]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 282,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 0,
+			}, -- [4]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 428,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 1,
+			}, -- [5]
+		},
+		["addonVersion"] = "9.2-096",
+		["enemies"] = {
+			{
+				["boardIndex"] = 6,
+				["spells"] = {
+					{
+						["duration"] = 3,
+						["cooldown"] = 6,
+						["spellID"] = 164,
+					}, -- [1]
+				},
+				["name"] = "Злобный террокрыл",
+				["followerID"] = -1,
+				["baseAttack"] = 136,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 740,
+				["maxHP"] = 740,
+			}, -- [1]
+			{
+				["boardIndex"] = 7,
+				["spells"] = {
+					{
+						["duration"] = 3,
+						["cooldown"] = 6,
+						["spellID"] = 164,
+					}, -- [1]
+				},
+				["name"] = "Злобный террокрыл",
+				["followerID"] = -2,
+				["baseAttack"] = 136,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 740,
+				["maxHP"] = 740,
+			}, -- [2]
+			{
+				["boardIndex"] = 5,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 4,
+						["spellID"] = 165,
+					}, -- [1]
+				},
+				["name"] = "Свирепый террокрыл",
+				["followerID"] = -3,
+				["baseAttack"] = 146,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 1240,
+				["maxHP"] = 1240,
+			}, -- [3]
+		},
+	},
+	[2186] = {
+		["missionID"] = 2186,
+		["followers"] = {
+			{
+				["maxHP"] = 1050,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 2,
+						["spellID"] = 115,
+					}, -- [1]
+				},
+				["xp"] = 1250,
+				["levelXP"] = 2500,
+				["level"] = 25,
+				["predictedFinalHP"] = 490,
+				["name"] = "Ренцисса Динамо",
+				["followerID"] = "0x000000009AC7388D",
+				["baseAttack"] = 175,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 1050,
+				["boardIndex"] = 2,
+			}, -- [1]
+			{
+				["maxHP"] = 350,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 0,
+						["spellID"] = 303,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = -70,
+				["name"] = "Малдраксийская воспевательница чумы",
+				["followerID"] = "0xFFFFFFFFFFFFFFFE",
+				["baseAttack"] = 245,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 350,
+				["boardIndex"] = 3,
+			}, -- [2]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 0,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 4,
+			}, -- [3]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 0,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 0,
+			}, -- [4]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 0,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 1,
+			}, -- [5]
+		},
+		["addonVersion"] = "9.2-096",
+		["enemies"] = {
+			{
+				["boardIndex"] = 5,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 2,
+						["spellID"] = 122,
+					}, -- [1]
+				},
+				["name"] = "Хихикающий трикстер",
+				["followerID"] = -1,
+				["baseAttack"] = 140,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 1750,
+				["maxHP"] = 1750,
+			}, -- [1]
+			{
+				["boardIndex"] = 8,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 2,
+						["spellID"] = 122,
+					}, -- [1]
+				},
+				["name"] = "Хихикающий трикстер",
+				["followerID"] = -2,
+				["baseAttack"] = 140,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 1750,
+				["maxHP"] = 1750,
+			}, -- [2]
+			{
+				["boardIndex"] = 11,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 4,
+						["spellID"] = 123,
+					}, -- [1]
+				},
+				["name"] = "Игривый трикстер",
+				["followerID"] = -3,
+				["baseAttack"] = 140,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 15,
+				},
+				["HP"] = 1450,
+				["maxHP"] = 1450,
+			}, -- [3]
+			{
+				["boardIndex"] = 10,
+				["spells"] = {
+					{
+						["duration"] = 1,
+						["cooldown"] = 3,
+						["spellID"] = 121,
+					}, -- [1]
+				},
+				["name"] = "Болотный трикстер",
+				["followerID"] = -4,
+				["baseAttack"] = 140,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 15,
+				},
+				["HP"] = 1250,
+				["maxHP"] = 1250,
+			}, -- [4]
+		},
+	},
+	[2280] = {
+		["missionID"] = 2280,
+		["followers"] = {
+			{
+				["maxHP"] = 2100,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 1,
+						["spellID"] = 110,
+					}, -- [1]
+					{
+						["duration"] = 0,
+						["cooldown"] = 0,
+						["spellID"] = 109,
+					}, -- [2]
+				},
+				["xp"] = 2450,
+				["levelXP"] = 2500,
+				["level"] = 25,
+				["predictedFinalHP"] = 1080,
+				["name"] = "Костоплав Гейрмир",
+				["followerID"] = "0x000000009BE253F0",
+				["baseAttack"] = 140,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 2100,
+				["boardIndex"] = 2,
+			}, -- [1]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 700,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 3,
+			}, -- [2]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 700,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 4,
+			}, -- [3]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 700,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 0,
+			}, -- [4]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 700,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 1,
+			}, -- [5]
+		},
+		["addonVersion"] = "9.2-096",
+		["enemies"] = {
+			{
+				["boardIndex"] = 6,
+				["spells"] = {
+					{
+						["duration"] = 2,
+						["cooldown"] = 2,
+						["spellID"] = 292,
+					}, -- [1]
+				},
+				["name"] = "Бретер Роуин",
+				["followerID"] = -1,
+				["baseAttack"] = 144,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 4040,
+				["maxHP"] = 4040,
+			}, -- [1]
+		},
+	},
+	[2261] = {
+		["missionID"] = 2261,
+		["followers"] = {
+			{
+				["maxHP"] = 875,
+				["spells"] = {
+					{
+						["duration"] = 2,
+						["cooldown"] = 4,
+						["spellID"] = 195,
+					}, -- [1]
+				},
+				["xp"] = 1750,
+				["levelXP"] = 2500,
+				["level"] = 25,
+				["predictedFinalHP"] = 391,
+				["name"] = "Талефи",
+				["followerID"] = "0x000000009C1B979D",
+				["baseAttack"] = 140,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 15,
+				},
+				["HP"] = 875,
+				["boardIndex"] = 2,
+			}, -- [1]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 612,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 3,
+			}, -- [2]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 700,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 4,
+			}, -- [3]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 700,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 0,
+			}, -- [4]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 700,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 1,
+			}, -- [5]
+		},
+		["addonVersion"] = "9.2-096",
+		["enemies"] = {
+			{
+				["boardIndex"] = 7,
+				["spells"] = {
+					{
+						["duration"] = 1,
+						["cooldown"] = 4,
+						["spellID"] = 247,
+					}, -- [1]
+				},
+				["name"] = "Быстрый небогрив",
+				["followerID"] = -1,
+				["baseAttack"] = 44,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 896,
+				["maxHP"] = 896,
+			}, -- [1]
+			{
+				["boardIndex"] = 6,
+				["spells"] = {
+					{
+						["duration"] = 1,
+						["cooldown"] = 4,
+						["spellID"] = 247,
+					}, -- [1]
+				},
+				["name"] = "Быстрый небогрив",
+				["followerID"] = -2,
+				["baseAttack"] = 44,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 896,
+				["maxHP"] = 896,
+			}, -- [2]
+			{
+				["boardIndex"] = 11,
+				["spells"] = {
+					{
+						["duration"] = 1,
+						["cooldown"] = 4,
+						["spellID"] = 247,
+					}, -- [1]
+				},
+				["name"] = "Быстрый небогрив",
+				["followerID"] = -3,
+				["baseAttack"] = 44,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 896,
+				["maxHP"] = 896,
+			}, -- [3]
+			{
+				["boardIndex"] = 9,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 2,
+						["spellID"] = 246,
+					}, -- [1]
+				},
+				["name"] = "Медношкурый охотник",
+				["followerID"] = -4,
+				["baseAttack"] = 88,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 336,
+				["maxHP"] = 336,
+			}, -- [4]
+		},
+	},
+	[2203] = {
+		["missionID"] = 2203,
+		["followers"] = {
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = -19,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 2,
+			}, -- [1]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = -37,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 3,
+			}, -- [2]
+			{
+				["maxHP"] = 875,
+				["spells"] = {
+					{
+						["duration"] = 2,
+						["cooldown"] = 4,
+						["spellID"] = 140,
+					}, -- [1]
+				},
+				["xp"] = 850,
+				["levelXP"] = 2500,
+				["level"] = 25,
+				["predictedFinalHP"] = -39,
+				["name"] = "Кхалик",
+				["followerID"] = "0x000000009AC73892",
+				["baseAttack"] = 140,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 15,
+				},
+				["HP"] = 875,
+				["boardIndex"] = 4,
+			}, -- [3]
+			{
+				["maxHP"] = 350,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 0,
+						["spellID"] = 303,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = 75,
+				["name"] = "Малдраксийская воспевательница чумы",
+				["followerID"] = "0xFFFFFFFFFFFFFFFE",
+				["baseAttack"] = 245,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 350,
+				["boardIndex"] = 0,
+			}, -- [4]
+			{
+				["maxHP"] = 700,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 5,
+						["spellID"] = 51,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["levelXP"] = 1,
+				["level"] = 25,
+				["predictedFinalHP"] = -32,
+				["name"] = "Малдраксийский штурмовик",
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 700,
+				["boardIndex"] = 1,
+			}, -- [5]
+		},
+		["addonVersion"] = "9.2-096",
+		["enemies"] = {
+			{
+				["boardIndex"] = 6,
+				["spells"] = {
+					{
+						["duration"] = 2,
+						["cooldown"] = 5,
+						["spellID"] = 156,
+					}, -- [1]
+				},
+				["name"] = "Обманутая распорядительница",
+				["followerID"] = -1,
+				["baseAttack"] = 85,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 2500,
+				["maxHP"] = 2500,
+			}, -- [1]
+			{
+				["boardIndex"] = 7,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 4,
+						["spellID"] = 157,
+					}, -- [1]
+				},
+				["name"] = "Заблуждающийся распорядитель",
+				["followerID"] = -2,
+				["baseAttack"] = 100,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 2000,
+				["maxHP"] = 2000,
+			}, -- [2]
+			{
+				["boardIndex"] = 5,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 4,
+						["spellID"] = 157,
+					}, -- [1]
+				},
+				["name"] = "Заблуждающийся распорядитель",
+				["followerID"] = -3,
+				["baseAttack"] = 100,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 2000,
+				["maxHP"] = 2000,
+			}, -- [3]
+			{
+				["boardIndex"] = 8,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 4,
+						["spellID"] = 157,
+					}, -- [1]
+				},
+				["name"] = "Заблуждающийся распорядитель",
+				["followerID"] = -4,
+				["baseAttack"] = 100,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 2000,
+				["maxHP"] = 2000,
+			}, -- [4]
+		},
+	},
+}

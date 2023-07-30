@@ -1,0 +1,23 @@
+
+HandyNotes_ShadowlandsDB = {
+	["profileKeys"] = {
+		["Шананси - Разувий"] = "Default",
+		["Джитивар - Разувий"] = "Default",
+		["Мороженщик - Разувий"] = "Default",
+		["Шашабуй - Разувий"] = "Default",
+		["Джитирог - Разувий"] = "Default",
+		["Джиупицца - Свежеватель Душ"] = "Default",
+		["Дубарун - Разувий"] = "Default",
+		["Биполярка - Разувий"] = "Default",
+		["Курамёт - Разувий"] = "Default",
+		["Аимбот - Разувий"] = "Default",
+		["Анклбенсс - Разувий"] = "Default",
+		["Джитиприст - Разувий"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["show_all_transmog_rewards"] = true,
+			["per_map_settings"] = true,
+		},
+	},
+}

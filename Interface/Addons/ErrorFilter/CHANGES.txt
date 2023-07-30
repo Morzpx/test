@@ -1,0 +1,16 @@
+lightweight tag f7322c5c16d9cec29d208d4de441bb1d97d6c963 v3.8
+Author:	iceeagle <ciprianmihai.coman@gmail.com>
+Date:	Sun Nov 20 17:10:18 2022 +0200
+
+commit f7322c5c16d9cec29d208d4de441bb1d97d6c963
+Author: iceeagle <ciprianmihai.coman@gmail.com>
+Date:   Sun Nov 20 17:10:18 2022 +0200
+
+    Update Dragonflight prepatch
+
+commit 85fcdd85ee1b852c33912bb8834b8daacc113620
+Author: iceeagle <ciprianmihai.coman@gmail.com>
+Date:   Sat Nov 5 09:42:16 2022 +0200
+
+    update for patch 10.0
+

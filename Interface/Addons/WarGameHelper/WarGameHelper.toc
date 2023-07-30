@@ -1,0 +1,14 @@
+## Interface: 100100
+## Title: WarGameHelper
+## Notes: Provides an interface to create War Games via the Friends List.
+## IconTexture: Interface\Icons\Spell_magic_polymorphchicken
+## Author: Starship
+## SavedVariables: WarGameHelperDB
+## Version: 1.1.9
+
+Libs\LibStub\LibStub.lua
+Libs\LibUIDropDownMenu\LibUIDropDownMenu.xml
+
+Localization.lua
+WarGameHelper.lua
+WarGameHelper.xml

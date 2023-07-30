@@ -1,0 +1,14 @@
+## Interface: 100005
+## Title: BetterWardrobe_SourceData (4.10)
+## Version: 4.10
+## Author: SLOKnightfall
+## Notes: 
+## LoadOnDemand: 1
+## DefaultState: enabled
+
+
+#Data files
+Data\ColorData.lua
+
+Data\AppearanceData.lua
+Data\SourceData.lua

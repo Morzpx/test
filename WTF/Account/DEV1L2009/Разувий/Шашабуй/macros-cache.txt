@@ -1,0 +1,36 @@
+VER 3 0100000000000008 "dispel" "INV_MISC_QUESTIONMARK"
+/stopcasting
+#showtoltip Очищение духа
+/cast [@Малифэсента] Очищение духа
+/cast [@Маро] Очищение духа
+END
+VER 3 0100000000000002 "Бурст" "INV_MISC_QUESTIONMARK"
+#Героизм
+/закл Героизм
+/use 13
+END
+VER 3 0100000000000001 "Тычка" "INV_MISC_QUESTIONMARK"
+#showtoltip Удар бури
+/закл Удар бури
+/use Пылкое желание Кил'джедена
+END
+VER 3 0100000000000004 "замедло" "INV_MISC_QUESTIONMARK"
+#showtoltip Тотем оков земли
+/cast [@cursor] Тотем оков земли
+END
+VER 3 0100000000000007 "кик фокус" "INV_MISC_QUESTIONMARK"
+#showtooltip Пронизывающий ветер
+/cast [mod:shift,@target][@focus] Пронизывающий ветер
+END
+VER 3 0100000000000003 "стан по курсору" "INV_MISC_QUESTIONMARK"
+#showtoltip Тотем конденсации
+/cast [@cursor] Тотем конденсации
+END
+VER 3 0100000000000005 "стена" "INV_MISC_QUESTIONMARK"
+#showtoltip Тотем земляной стены
+/cast [@cursor] Тотем земляной стены
+END
+VER 3 0100000000000006 "хватка" "INV_MISC_QUESTIONMARK"
+#showtoltip Тотем хватки земли
+/cast [@cursor] Тотем хватки земли
+END

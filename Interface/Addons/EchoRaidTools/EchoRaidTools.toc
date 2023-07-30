@@ -1,0 +1,33 @@
+## Interface: 100105
+
+## Title: Echo Raid Tools
+## Notes: Raid Tools for and by <Echo>
+## Author: Echo
+## Version: 1.3.0
+## SavedVariables: EchoRaidToolsDB
+## X-Date: 2022-04-20T17:23:00Z
+## X-License: All rights reserved
+## IconTexture: Interface\AddOns\EchoRaidTools\assets\textures\ELp3.tga
+## AddonCompartmentFunc: EchoRaidTools_Toggle
+
+#@no-lib-strip@
+libs\libs.xml
+#@end-no-lib-strip@
+
+loadCore.xml
+
+templates\load.xml
+widgets\load.xml
+
+util\load.xml
+
+modules\exposed-internals\load.xml
+modules\waJournal\load.xml
+# modules\notes\load.xml
+modules\cooldowns\load.xml
+# modules\perma-marks\load.xml
+# modules\test\load.xml
+modules\Profiles\load.xml
+modules\readyCheck\load.xml
+
+startup.lua

@@ -1,0 +1,28 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="notes.lua"/>
+	<Script file="entries\entry.lua"/>
+	<Script file="entries\book.lua"/>
+	<Script file="entries\group.lua"/>
+	<Script file="entries\interrupt.lua"/>
+	<Script file="entries\list.lua"/>
+	<Script file="entries\note.lua"/>
+	<Script file="entries\page.lua"/>
+	<Script file="entries\role.lua"/>
+	<Script file="entries\section.lua"/>
+	<Script file="entries\timer.lua"/>
+	<Script file="entries\unit.lua"/>
+	<Script file="processor\processor.lua"/>
+	<Script file="processor\core.lua"/>
+	<Script file="processor\color.lua"/>
+	<Script file="processor\marker.lua"/>
+	<Script file="processor\interrupts.lua"/>
+	<Script file="simple\parser.lua"/>
+	<Script file="widgets\util.lua"/>
+	<Script file="widgets\unit-button.lua"/>
+	<Script file="widgets\marksbar.lua"/>
+	<Script file="widgets\unit-selection.lua"/>
+	<Script file="widgets\rotation-wizard.lua"/>
+	<Script file="widgets\editor.lua"/>
+	<Script file="widgets\display.lua"/>
+</Ui>

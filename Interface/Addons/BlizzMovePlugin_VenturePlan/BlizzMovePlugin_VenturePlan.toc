@@ -1,0 +1,11 @@
+## Interface: 100105
+## Title: BlizzMove Plugin - Venture Plan
+## Notes: Allows you to move the Venture Plan window with BlizzMove
+## Author: Numy
+## IconTexture: Interface\Addons\BlizzMovePlugin_VenturePlan\media\icon
+## RequiredDeps: BlizzMove,VenturePlan
+## Version: v1.0.15
+## X-Curse-Project-ID: 490528
+## X-Wago-ID: LvNAX8Go
+
+BlizzMovePlugin_VenturePlan.lua

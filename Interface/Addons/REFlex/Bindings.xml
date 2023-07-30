@@ -1,0 +1,9 @@
+<Bindings>
+  <Binding category="BINDING_HEADER_REFLEXB" name="REFLEXOPEN">
+    if not REFlexFrame:IsVisible() then
+      REFlexFrame:Show()
+    else
+      REFlexFrame:Hide()
+    end
+  </Binding>
+</Bindings>

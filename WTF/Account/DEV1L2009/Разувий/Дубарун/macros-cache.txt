@@ -1,0 +1,9 @@
+VER 3 0100000000000001 "бурст" "INV_MISC_QUESTIONMARK"
+#showtoltip Священная война
+/закл Священная война
+/use 13
+END
+VER 3 0100000000000002 "хил" "INV_MISC_QUESTIONMARK"
+#showtoltip Торжество
+/cast [@Малифэсента] Торжествот
+END

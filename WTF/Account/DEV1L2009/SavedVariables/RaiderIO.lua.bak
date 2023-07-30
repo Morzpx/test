@@ -1,0 +1,28 @@
+
+RaiderIO_Config = {
+	["previouslyEnabledLogging"] = false,
+}
+RaiderIO_LastCharacter = "eu-Джиупицца-soulflayer"
+RaiderIO_MissingCharacters = {
+	["eu-Riqz-blackrock"] = true,
+	["eu-Стеймхорн-soulflayer"] = true,
+	["eu-Джиупицца-soulflayer"] = true,
+	["eu-Тикс-soulflayer"] = true,
+	["eu-Редстерс-soulflayer"] = true,
+	["eu-Мейсадисс-gordunni"] = true,
+	["eu-Голандец-soulflayer"] = true,
+	["eu-Combatantti-stormreaver"] = true,
+	["eu-Вездела-soulflayer"] = true,
+	["eu-Tyvestrex-burning-legion"] = true,
+	["eu-Алягран-eversong"] = true,
+	["eu-Deadserious-stormreaver"] = true,
+	["eu-Гледрагон-soulflayer"] = true,
+	["eu-Хэммии-soulflayer"] = true,
+	["eu-Посудомойщик-soulflayer"] = true,
+	["eu-Стонандед-soulflayer"] = true,
+}
+RaiderIO_MissingServers = {
+}
+RaiderIO_CachedRuns = nil
+RaiderIO_RWF = {
+}

@@ -1,0 +1,321 @@
+VER 3 0000000000000054 "/сесть" "INV_MISC_QUESTIONMARK"
+/сесть
+/run SetRaidTarget("target", 8)
+END
+VER 3 000000000000003A "1" "INV_MISC_QUESTIONMARK"
+/закл Уничтожение
+/закл Кровоотвод
+END
+VER 3 0000000000000075 "111111" "134400"
+#showtooltip
+/cast Круг мира;  Песнь Чи-Цзи
+END
+VER 3 0000000000000074 "12" "134400"
+#showtooltip Круг мира; [mod] Песнь Чи-Цзи
+/cast [@cursor] Круг мира
+/cast Песнь Чи-Цзи
+END
+VER 3 0000000000000036 "1212" "INV_MISC_QUESTIONMARK"
+#showtooltip УДУшение
+/cast [mod:shift,@target][@focus] УДУшение
+END
+VER 3 0000000000000050 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click ExtraActionButton1
+END
+VER 3 0000000000000002 "Afflicted clear" "INV_MISC_QUESTIONMARK"
+/roll
+END
+VER 3 0000000000000067 "burs monk" "INV_MISC_QUESTIONMARK"
+/showtooltip Призыв Сюэня, Белого Тигра
+/закл Призыв Сюэня, Белого Тигра
+/use Жетон свирепости космического гладиатора
+/use Непостижимое квантовое устройство
+END
+VER 3 0000000000000055 "burst" "INV_MISC_QUESTIONMARK"
+#showtoltip Призыв Нюцзао, Черного Быка
+/закл Призыв Нюцзао, Черного Быка
+/use 13
+END
+VER 3 0000000000000056 "burst heal" "INV_MISC_QUESTIONMARK"
+#showtolti Призыв Юй-лун, Нефритовой Змеи
+/закл Призыв Юй-лун, Нефритовой Змеи
+/use 13
+END
+VER 3 0000000000000058 "cup1" "INV_MISC_QUESTIONMARK"
+#showtoltip Паралич
+/cast [@arena1 ] Паралич
+END
+VER 3 0000000000000059 "cup2" "INV_MISC_QUESTIONMARK"
+#showtoltip Паралич
+/cast [@arena2 ] Паралич
+END
+VER 3 000000000000005A "cup3" "INV_MISC_QUESTIONMARK"
+#showtoltip Паралич
+/cast [@arena3 ] Паралич
+END
+VER 3 0000000000000031 "dbm 10" "INV_Misc_QuestionMark"
+/dbm pull 10
+END
+VER 3 0000000000000052 "dbm pull 10" "INV_MISC_QUESTIONMARK"
+/dbm pull 10
+END
+VER 3 000000000000005B "disarm1" "INV_MISC_QUESTIONMARK"
+#showtoltip Захват оружия
+/cast [@arena1 ] Захват оружия
+END
+VER 3 000000000000005C "disarm2" "INV_MISC_QUESTIONMARK"
+#showtoltip Захват оружия
+/cast [@arena2 ] Захват оружия
+END
+VER 3 000000000000005D "disarm3" "INV_MISC_QUESTIONMARK"
+#showtoltip Захват оружия
+/cast [@arena3 ] Захват оружия
+END
+VER 3 0000000000000061 "dispel monk" "INV_MISC_QUESTIONMARK"
+#showtooltip Детоксикация
+/stopcast
+/cast [@Громраг] Детоксикация
+/cast [@Маро] Детоксикация
+END
+VER 3 0000000000000076 "ExtraButton" "136103"
+/click ExtraActionButton1
+END
+VER 3 0000000000000005 "Focus" "INV_MISC_QUESTIONMARK"
+/Focus
+END
+VER 3 000000000000002F "focus" "Ability_Ambush"
+/focus [mod:shift,@arena1];[mod:ctrl,@arena2];[mod:alt,@arena3];[nomod,@player]
+END
+VER 3 0000000000000009 "mf" "INV_Misc_QuestionMark"
+#showtooltip [nomod]пытка разума;[mod:ctrl]молитва восстановления
+/use 10
+/cast [mod:ctrl] молитва восстановления
+/cast [nomod,nochanneling:пытка разума] пытка разума
+END
+VER 3 0000000000000029 "Mk" "INV_MISC_QUESTIONMARK"
+/закл Контроль над разумом
+/cancelaura Контроль над разумом
+END
+VER 3 0000000000000016 "mo" "INV_Misc_QuestionMark"
+#showtooltip всепожирающая чума
+/cast [target=mouseover,nomod,exist]Всепожирающая чума
+END
+VER 3 0000000000000027 "omgdmg" "INV_Misc_QuestionMark"
+#showtooltip Пронзание разума
+/use 10
+/castsequence reset=8 Пронзание разума, Пронзание разума, Пронзание разума,Взрыв разума, Пронзание разума, Пронзание разума, Пронзание разума
+END
+VER 3 0000000000000032 "renew+naary" "INV_Misc_QuestionMark"
+/cast [mod:shift] дар наару
+/cast [nomod] обновление
+END
+VER 3 000000000000004C "server" "136168"
+/serverhop
+END
+VER 3 000000000000004B "ServerHop" "INV_MISC_QUESTIONMARK"
+/ServerHop
+END
+VER 3 000000000000004A "serverhop" "INV_MISC_QUESTIONMARK"
+/serverhop
+END
+VER 3 0000000000000013 "Sh fiend" "INV_Misc_QuestionMark"
+#showtooltip Исчадие тьмы
+/use 10
+/cast [nopet,harm][nopet,target=targettarget,harm] исчадие тьмы
+/cast стелющаяся тьма
+/petattack [harm][target=targettarget,harm]
+/cast [@исчадие тьмы, noharm] рассеивание заклинаний
+END
+VER 3 000000000000002C "shwd" "Ability_Creature_Cursed_05"
+/stopcasting 
+/cancelaura Слово силы: Щит 
+/cancelaura Божественное покровительство 
+/cast [target=focus] Слово Тьмы: Смерть
+END
+VER 3 0000000000000069 "use13" "INV_MISC_QUESTIONMARK"
+#showtooltip 13
+/use [@cursor] 13
+END
+VER 3 000000000000006C "wLogs" "878250"
+/combatlog
+END
+VER 3 000000000000000B "АнтифирФиндаctrl" "Ability_Creature_Cursed_03"
+#showtooltip Защита от страха
+/cast [@Исчадие тьмы] Защита от страха
+END
+VER 3 000000000000000A "Асист ракетой" "INV_Misc_QuestionMark"
+/assist [nomodifier,@Диосса]
+/use 10;
+/assist [modifier:shift,target=target,harm]
+/use 10;
+/targetlasttarget
+END
+VER 3 0000000000000045 "БУРСТ ДК" "INV_MISC_QUESTIONMARK"
+/закл Ледяной столп
+END
+VER 3 000000000000003E "Бросок" "INV_MISC_QUESTIONMARK"
+#showtooltip Удар громовержца
+/cast [mod:shift,@target][@focus] Удар громовержца
+END
+VER 3 0000000000000043 "Бурст" "INV_MISC_QUESTIONMARK"
+#showtooltip Безрассудство
+/закл Безрассудство
+/cast Кровавая баня
+/cast Аватара
+/use Жетон победы воинственного гладиатора
+END
+VER 3 000000000000006A "Ви уебок" "878232"
+/target Реликвия Урт
+/run SetRaidTarget("target", 8)
+END
+VER 3 0000000000000041 "Вмешательство" "INV_MISC_QUESTIONMARK"
+#Вмешательство
+/cast [target=Дарсвета] Вмешательство
+END
+VER 3 000000000000000F "Вниз диспел" "INV_Misc_QuestionMark"
+/stopcasting
+/cast [@Джитиприст] Очищение
+END
+VER 3 000000000000000C "Глубинный ужас" "INV_Misc_QuestionMark"
+#showtooltip глубинный ужас
+/cast [mod:shift,@target][@focus] Глубинный ужас
+END
+VER 3 000000000000001D "Диспел верх" "INV_MISC_QUESTIONMARK"
+/stopcast
+/cast [@Чтодь] Очищение
+END
+VER 3 0000000000000023 "Диспел доси" "INV_Misc_QuestionMark"
+/stopcasting
+/cast [mod:shift,@Диоза] Рассеивание заклинаний
+/cast [@Флаймод] Рассеивание заклинаний
+END
+VER 3 000000000000001A "Диспел себя" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcast
+/cast [@Малифэсента] Слово силы: Щит
+END
+VER 3 0000000000000044 "Дэф стойка" "INV_MISC_QUESTIONMARK"
+/stopcast
+/cast [@Малифэсента] Слово силы: Щит
+END
+VER 3 0000000000000020 "Зашмаляю" "INV_Misc_QuestionMark"
+/stopcasting
+/cast [@Маро] Духовное рвение
+END
+VER 3 0000000000000073 "Маро беги" "134400"
+#showtooltip Тигриное рвение
+/stopcast
+/cast [@Маро] Тигриное рвение
+END
+VER 3 0000000000000008 "Маунт рандом" "Ability_Druid_KingoftheJungle"
+/castrandom [flyable] протодракон в железной броне;
+/castrandom [available] Повелитель воронов;
+END
+VER 3 0000000000000021 "Сяпыга" "INV_Misc_QuestionMark"
+/stopcasting
+/cast [@Маро] Духовное рвение
+END
+VER 3 000000000000006B "Урт" "841379"
+/target Реликвия Урт
+/run SetRaidTarget("target", 8)
+END
+VER 3 0000000000000078 "бочка" "134400"
+#showtooltip Взрывной бочонок
+/cast [@cursor]Взрывной бочонок
+END
+VER 3 0000000000000051 "бык сцука" "1033911"
+#showtoltip Призыв статуи Черного Быка
+/cast [@cursor] Призыв статуи Черного Быка
+END
+VER 3 0000000000000072 "вьебать" "134400"
+#showtoltip Призыв Чи-Цзи, Красного Журавля
+/закл Призыв Чи-Цзи, Красного Журавля
+/закл Кровавое неистовство(Расовая)
+/use 13
+END
+VER 3 0000000000000071 "вьебать" "134400"
+#showtoltip Призыв Юй-лун, Нефритовой Змеи
+/закл Призыв Юй-лун, Нефритовой Змеи
+/закл Кровавое неистовство(Расовая)
+/use 13
+END
+VER 3 000000000000007A "вьебать" "134400"
+#showtooltip Безмятежность
+/закл Безмятежность
+/use 13
+END
+VER 3 0000000000000060 "диспел" "INV_MISC_QUESTIONMARK"
+#showto
+/stopcast
+/cast [@Малифэсента] Слово силы: Щит
+END
+VER 3 0000000000000077 "дыхалка" "134400"
+#showtooltip Пламенное дыхание
+/закл Пламенное дыхание
+/use 13
+END
+VER 3 000000000000006D "инкап таргет" "INV_MISC_QUESTIONMARK"
+#showtoltip Паралич
+/stopcast
+/target Лататель чешуи из племени Соленой Хмари
+/cast Паралич
+END
+VER 3 0000000000000068 "капли" "INV_MISC_QUESTIONMARK"
+#showtoltip Целительная сфера(PvP-талант)
+/cast [@cursor] Целительная сфера(PvP-талант)
+END
+VER 3 0000000000000057 "кик фокус" "INV_MISC_QUESTIONMARK"
+#showtooltip Рука-копье
+/cast [@focus] Рука-копье
+END
+VER 3 0000000000000065 "кокон" "INV_MISC_QUESTIONMARK"
+#showtooltip Исцеляющий кокон
+/stopcast
+/cast [@Громраг] Исцеляющий кокон
+END
+VER 3 000000000000005E "круг" "INV_MISC_QUESTIONMARK"
+#showtoltip Круг мира
+/cast [@cursor] Круг мира
+END
+VER 3 0000000000000066 "отвар" "INV_MISC_QUESTIONMARK"
+#showtooltip Отвар из костяной пыли
+/cast [@cursor] Отвар из костяной пыли
+/use13
+END
+VER 3 0000000000000003 "отд кам ctr+scrl" "SPELL_ARCANE_TELEPORTMOONGLADE"
+/console cameradistancemaxfactor 5
+END
+VER 3 000000000000003C "сало" "INV_MISC_QUESTIONMARK"
+#showtooltip Антимагия
+/cast [@focus] Антимагия
+END
+VER 3 000000000000005F "столб" "INV_MISC_QUESTIONMARK"
+#showtoltip Призыв статуи Нефритовой Змеи
+/cast [@cursor] Призыв статуи Нефритовой Змеи
+END
+VER 3 000000000000006F "форест" "134400"
+#showtooltip Тигриное рвение
+/stopcast
+/cast [@Громраг] Тигриное рвение
+/cast [@Волавер] Тигриное рвение
+END
+VER 3 0000000000000063 "хил бурст" "INV_MISC_QUESTIONMARK"
+#showtooltip Призыв Юй-лун, Нефритовой Змеи
+/stopcast
+/cast Кровавое неистовство(Расовая)
+/cast Призыв Юй-лун, Нефритовой Змеи
+/use 13
+END
+VER 3 0000000000000062 "хил бурст монк о" "INV_MISC_QUESTIONMARK"
+END
+VER 3 000000000000006E "хуй знает что за" "134400"
+#showtooltip Призыв статуи белого тигра
+/cast [@cursor]Призыв статуи белого тигра
+END
+VER 3 0000000000000053 "череп" "3084684"
+/run SetRaidTarget("target", 8)
+END
+VER 3 0000000000000064 "череп" "INV_MISC_QUESTIONMARK"
+/run SetRaidTarget("target", 8)
+END

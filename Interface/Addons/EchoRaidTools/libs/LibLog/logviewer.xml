@@ -1,0 +1,21 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+    <Frame name="LibLogViewerTemplate" inherits="BasicFrameTemplateWithInset" parent="UIParent" toplevel="true" movable="true" resizable="true" enableMouse="true" clampedToScreen="true" frameStrata="DIALOG" virtual="true">
+        <Size x="400" y="400" />
+        <Anchors>
+            <Anchor point="CENTER" />
+        </Anchors>
+        <Frames>
+            <Button parentKey="ResizeButton" inherits="PanelResizeButtonTemplate">
+				<Anchors>
+					<Anchor point="BOTTOMRIGHT" x="-4" y="4"/>
+				</Anchors>
+			</Button>
+        </Frames>
+		<Scripts>
+			<OnLoad>
+				self.TitleText:SetText("LibLog Viewer");
+			</OnLoad>
+		</Scripts>
+    </Frame>
+</Ui>

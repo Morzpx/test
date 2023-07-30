@@ -1,0 +1,26 @@
+VER 3 0100000000000001 "hook" "INV_MISC_QUESTIONMARK"
+#showtoltip Крюк
+/cast [pet] Крюк
+END
+VER 3 0100000000000004 "БАЛ" "INV_MISC_QUESTIONMARK"
+#showtooltip Асфиксия
+/cast [mod:shift,@target][@focus] Асфиксия
+END
+VER 3 0100000000000002 "Желчь" "INV_MISC_QUESTIONMARK"
+#showtooltip Защитная желчь  
+/cast [pet]Защитная желчь 
+/cast [modifier:alt, target=Дкшечко] Защитная желчь
+END
+VER 3 0100000000000005 "Кик фокус" "INV_MISC_QUESTIONMARK"
+#showtooltip Заморозка разума
+/cast [mod:shift,@target][@focus] Заморозка разума
+END
+VER 3 0100000000000006 "пудж" "INV_MISC_QUESTIONMARK"
+#showtoltip Воскрешение поганища(PvP-талант)
+/cast [@cursor] Воскрешение поганища(PvP-талант)
+END
+VER 3 0100000000000003 "тычка 1" "INV_MISC_QUESTIONMARK"
+#showtoltip Удар разложения
+/закл Удар разложения
+/закл Атаковать(Управление питомцем/прислужником)
+END

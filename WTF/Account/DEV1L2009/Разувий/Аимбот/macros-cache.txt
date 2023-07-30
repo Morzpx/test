@@ -1,0 +1,50 @@
+VER 3 0100000000000006 "12" "INV_MISC_QUESTIONMARK"
+/w %t 
+END
+VER 3 0100000000000009 "buble" "INV_MISC_QUESTIONMARK"
+END
+VER 3 010000000000000A "buble" "INV_MISC_QUESTIONMARK"
+#showtooltip Слияние с Тьмой
+/закл Слияние с Тьмой
+/cancelaura Слияние с Тьмой
+END
+VER 3 0100000000000002 "burst" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Придание сил
+/w %t Привет Придание сил
+/use 13
+END
+VER 3 0100000000000003 "covenant" "INV_MISC_QUESTIONMARK"
+#showtooltip Нечестивое кольцо(Некролорды)
+/закл Нечестивое кольцо(Некролорды)
+/use 14
+END
+VER 3 010000000000000C "covenant pvp" "INV_MISC_QUESTIONMARK"
+#showtooltip Нечестивое кольцо(Некролорды)
+/закл Нечестивое кольцо(Некролорды)
+END
+VER 3 0100000000000007 "PI heal" "INV_MISC_QUESTIONMARK"
+/run local t,s="target","Придание сил"if IsSpellInRange(s,t)==1 and GetSpellCooldown(s)==0 then SendChatMessage("Дал "..s.." тебе - ебонькай","WHISPER",nil,GetUnitName(t,1))end
+/cast Придание сил
+END
+VER 3 0100000000000008 "PI shadow" "INV_MISC_QUESTIONMARK"
+/run local t,s="target","Придание сил"if IsSpellInRange(s,t)==1 and GetSpellCooldown(s)==0 then SendChatMessage("Дал "..s.." тебе - ебонькай","WHISPER",nil,GetUnitName(t,1))end
+/cast Придание сил
+/use 13
+END
+VER 3 010000000000000B "pvp" "INV_MISC_QUESTIONMARK"
+/run local t,s="target","Придание сил"if IsSpellInRange(s,t)==1 and GetSpellCooldown(s)==0 then SendChatMessage("Дал "..s.." тебе - ебонькай","WHISPER",nil,GetUnitName(t,1))end
+/cast Придание сил
+END
+VER 3 0100000000000005 "swap" "INV_MISC_QUESTIONMARK"
+w 
+END
+VER 3 0100000000000001 "test" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nochanneling: Иссушение разума] Слово Тьмы: Боль
+/cast [talent:3/3,channeling: Иссушение разума] Иссушающий кошмар; Слово Тьмы: Боль
+END
+VER 3 0100000000000004 "летелка" "INV_MISC_QUESTIONMARK"
+#showtooltip Темное сокрушение
+/cast [@cursor] Темное сокрушение
+END

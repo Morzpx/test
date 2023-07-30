@@ -1,0 +1,83 @@
+
+TomTomDB = {
+	["profileKeys"] = {
+		["Шананси - Разувий"] = "Default",
+		["Джиупицца - Свежеватель Душ"] = "Default",
+		["Аимбот - Разувий"] = "Default",
+		["Шашабуй - Разувий"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["arrow"] = {
+				["position"] = {
+					"LEFT", -- [1]
+					nil, -- [2]
+					"LEFT", -- [3]
+					56.44533920288086, -- [4]
+					-98.88882446289062, -- [5]
+				},
+			},
+			["block"] = {
+				["position"] = {
+					"BOTTOMLEFT", -- [1]
+					nil, -- [2]
+					"BOTTOMLEFT", -- [3]
+					372.2227478027344, -- [4]
+					270.5553894042969, -- [5]
+				},
+			},
+		},
+	},
+}
+TomTomWaypoints = nil
+TomTomWaypointsM = {
+	["profileKeys"] = {
+		["Шананси - Разувий"] = "Шананси - Разувий",
+		["Джиупицца - Свежеватель Душ"] = "Джиупицца - Свежеватель Душ",
+		["Аимбот - Разувий"] = "Аимбот - Разувий",
+		["Шашабуй - Разувий"] = "Шашабуй - Разувий",
+	},
+	["profiles"] = {
+		["Шананси - Разувий"] = {
+			[2025] = {
+				["2025:620519000:815296000:Перейти к Хроми"] = {
+					2025, -- [1]
+					0.620519, -- [2]
+					0.815296, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Перейти к Хроми",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Перейти к Хроми",
+					["from"] = "?",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+		},
+		["Джиупицца - Свежеватель Душ"] = {
+		},
+		["Аимбот - Разувий"] = {
+		},
+		["Шашабуй - Разувий"] = {
+		},
+	},
+}

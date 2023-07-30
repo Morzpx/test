@@ -1,0 +1,9 @@
+local ZygorGuidesViewer=ZygorGuidesViewer
+if not ZygorGuidesViewer then return end
+if UnitFactionGroup("player")~="Alliance" then return end
+if ZGV:DoMutex("ProfessionsACLASSIC") then return end
+ZGV.BETASTART()
+ZGV.BETAEND()
+ZygorGuidesViewer.GuideMenuTier = "TRI"
+ZGV.BETASTART()
+ZGV.BETAEND()

@@ -1,0 +1,68 @@
+VER 3 010000000000000D "aoe" "INV_MISC_QUESTIONMARK"
+#Огненный столб
+/cast [@cursor] Огненный столб
+END
+VER 3 010000000000000B "arena1" "135856"
+#showtoltip Антимагия
+/target arena1
+/закл Антимагия
+END
+VER 3 010000000000000C "arena2" "135856"
+#showtoltip Антимагия
+/target arena1
+/закл Антимагия
+END
+VER 3 0100000000000006 "blood elf male" "INV_MISC_QUESTIONMARK"
+.skin 6
+.face 1
+.hair 3
+END
+VER 3 0100000000000007 "burst" "INV_MISC_QUESTIONMARK"
+/showtooltip Стылая кровь
+/закл Стылая кровь
+/use 13
+END
+VER 3 0100000000000001 "human female" "INV_MISC_QUESTIONMARK"
+.gender
+.skin 5
+.face 4
+.haircolor 10
+.hair 8
+END
+VER 3 0100000000000003 "morn" "INV_MISC_QUESTIONMARK"
+#showtooltip Сильная струя воды
+/cast [pet] Сильная струя воды
+END
+VER 3 0100000000000004 "mount" "INV_Staff_77"
+.mount 22464
+END
+VER 3 0100000000000005 "race" "INV_MISC_QUESTIONMARK"
+#showtoltip холод
+/cast [pet] холод
+END
+VER 3 010000000000000F "ring" "INV_MISC_QUESTIONMARK"
+#showtooltip Кольцо мороза 
+/cast [@cursor] Кольцо мороза
+END
+VER 3 010000000000000E "бурст" "INV_MISC_QUESTIONMARK"
+#showtoltip Возгорание
+/use 13
+/закл Возгорание
+END
+VER 3 010000000000000A "глыба" "INV_MISC_QUESTIONMARK"
+#showtoltip Большая огненная глыба
+/use 13
+/cast Большая огненная глыба
+END
+VER 3 0100000000000010 "дождик" "INV_MISC_QUESTIONMARK"
+#showtooltip Снежная буря
+/cast [@cursor] Снежная буря
+END
+VER 3 0100000000000009 "метеор" "INV_MISC_QUESTIONMARK"
+#Метеор
+/cast [@cursor] Метеор
+END
+VER 3 0100000000000008 "шарик" "INV_MISC_QUESTIONMARK"
+#showtooltip Ледяной шар
+/cast [@cursor] Ледяной шар
+END
